@@ -28,14 +28,13 @@ export default `<!DOCTYPE html>
     <meta property="og:image:width" content="1200"/>
     <meta property="og:image:height" content="630"/>
 
-    <link rel="icon" href="https://api.meditrade-eg.com/favicon.ico"/>
+    <link rel="icon" href="/favicon.ico"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="icon" type="image/x-icon" href="https://api.meditrade-eg.com/favicon.ico"/>
-    <link rel="icon" type="image/png" href="https://api.meditrade-eg.com/favicon-96x96.png" sizes="96x96"/>
-    <link rel="icon" type="image/svg+xml" href="https://api.meditrade-eg.com/favicon.svg"/>
-    <link rel="shortcut icon" href="https://api.meditrade-eg.com/favicon.ico"/>
-    <link rel="apple-touch-icon" sizes="180x180" href="https://api.meditrade-eg.com/apple-touch-icon.png"/>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
   <link rel="stylesheet" href="styles-KRN5WX4M.css"></head>
   <body><script type="text/javascript" id="ng-event-dispatch-contract">(()=>{function p(t,n,r,o,e,i,f,m){return{eventType:t,event:n,targetElement:r,eic:o,timeStamp:e,eia:i,eirp:f,eiack:m}}function u(t){let n=[],r=e=>{n.push(e)};return{c:t,q:n,et:[],etc:[],d:r,h:e=>{r(p(e.type,e,e.target,t,Date.now()))}}}function s(t,n,r){for(let o=0;o<n.length;o++){let e=n[o];(r?t.etc:t.et).push(e),t.c.addEventListener(e,t.h,r)}}function c(t,n,r,o,e=window){let i=u(t);e._ejsas||(e._ejsas={}),e._ejsas[n]=i,s(i,r),s(i,o,!0)}window.__jsaction_bootstrap=c;})();
 </script>
