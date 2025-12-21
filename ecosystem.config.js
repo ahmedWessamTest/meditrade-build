@@ -9,8 +9,9 @@ module.exports = {
       // ===============================
       // Performance
       // ===============================
-      instances: "max",          // عدد الأنوية
-      exec_mode: "cluster",      // Cluster mode
+      exec_mode: "fork",          // Fork mode
+      // instances غير مطلوب في fork mode
+
       node_args: "--max-old-space-size=2048",
 
       // ===============================
@@ -32,7 +33,7 @@ module.exports = {
       // ===============================
       // Stability
       // ===============================
-      max_memory_restart: "800M",   // Restart لو الذاكرة زادت
+      max_memory_restart: "800M",
       restart_delay: 3000,
       kill_timeout: 5000,
       listen_timeout: 10000,
