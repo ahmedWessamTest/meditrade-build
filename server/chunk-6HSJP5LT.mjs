@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-import"./chunk-X2SEQXRR.mjs";var o=[{path:"",loadComponent:()=>import("./chunk-SYUQSZVO.mjs").then(e=>e.Wrapper),children:[{path:"",loadComponent:()=>import("./chunk-TOAH5CVD.mjs").then(e=>e.Blogs)},{path:":slug",loadComponent:()=>import("./chunk-D6JCLUGC.mjs").then(e=>e.BlogId)}],\u0275entryName:"src/app/features/blogs/components/wrapper/wrapper.ts"}];export{o as default};
