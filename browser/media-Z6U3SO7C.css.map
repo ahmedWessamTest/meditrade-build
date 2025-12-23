@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/media/media.css"],
+  "sourcesContent": ["::ng-deep .owl-dots .owl-dot span {\r\n  background-color: #d9d9d9 !important;\r\n}\r\n::ng-deep .owl-dots .owl-dot.active span {\r\n  background-color: var(--color-main) !important;\r\n}\r\na.video .icons i {\r\n  transition: all 0.3s ease;\r\n}\r\na.video:hover .icons i {\r\n  scale: 1.2;\r\n  color: var(--color-main) !important;\r\n}\r\n"],
+  "mappings": "AAAA,UAAA,CAAA,SAAA,CAAA,QAAA,KACE,iBAAA,iBACF,CACA,UAAA,CAHA,SAGA,CAHA,OAGA,CAAA,OAAA,KACE,iBAAA,IAAA,uBACF,CACA,CAAA,CAAA,MAAA,CAAA,MAAA,EACE,WAAA,IAAA,IAAA,IACF,CACA,CAAA,CAHA,KAGA,OAAA,CAHA,MAGA,EACE,MAAA,IACA,MAAA,IAAA,uBACF",
+  "names": []
+}

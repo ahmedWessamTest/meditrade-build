@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["image-with-skeleton.component.ts"],
+  "sourcesContent": ["\n      img {\n        transition: opacity 0.3s ease-in-out;\n      }\n\n      .loading {\n        opacity: 0;\n      }\n\n      .loaded {\n        opacity: 1;\n      }\n    "],
+  "mappings": "AACM,IACE,WAAA,QAAA,IAAA,WACF,CAEA,CAAA,QACE,QAAA,CACF,CAEA,CAAA,OACE,QAAA,CACF",
+  "names": []
+}

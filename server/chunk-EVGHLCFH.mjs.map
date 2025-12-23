@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/blogs/routes/blogs.routes.ts"],
+  "sourcesContent": ["import { Route } from '@angular/router';\r\n\r\nexport default [\r\n  {\r\n    path: '',\r\n    loadComponent: () =>\r\n      import('@features/blogs/components/wrapper/wrapper').then((m) => m.Wrapper),\r\n    children: [\r\n      {\r\n        path: '',\r\n        loadComponent: () => import('@features/blogs/pages/blogs/blogs').then((m) => m.Blogs),\r\n      },\r\n      {\r\n        path: ':slug',\r\n        loadComponent: () => import('@features/blogs/pages/blog-id/blog-id').then((m) => m.BlogId),\r\n      },\r\n    ],\r\n  },\r\n] as Route[];\r\n"],
+  "mappings": ";6BAEA,IAAAA,EAAe,CACb,CACEC,KAAM,GACNC,cAAeA,IACb,OAAO,sBAA4C,EAAEC,KAAMC,GAAMA,EAAEC,OAAO,EAC5EC,SAAU,CACR,CACEL,KAAM,GACNC,cAAeA,IAAM,OAAO,sBAAmC,EAAEC,KAAMC,GAAMA,EAAEG,KAAK,GAEtF,CACEN,KAAM,QACNC,cAAeA,IAAM,OAAO,sBAAuC,EAAEC,KAAMC,GAAMA,EAAEI,MAAM,EAC1F,yEAEJ",
+  "names": ["blogs_routes_default", "path", "loadComponent", "then", "m", "Wrapper", "children", "Blogs", "BlogId"]
+}

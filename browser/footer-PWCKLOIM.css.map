@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/footer/footer.css"],
+  "sourcesContent": [".img-footer {\r\n  left: 0;\r\n  bottom: -65px;\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,WACE,KAAA,EACA,OAAA,KACF",
+  "names": []
+}

@@ -1,1 +1,0 @@
-import{j as n}from"./chunk-MOELLNBT.js";import{aa as r,mb as e}from"./chunk-CCPBXHHJ.js";var s=class t{sanitizer=r(n);transform(i){return this.sanitizer.bypassSecurityTrustHtml(i||"")}static \u0275fac=function(a){return new(a||t)};static \u0275pipe=e({name:"customSanitize",type:t,pure:!0})};export{s as a};

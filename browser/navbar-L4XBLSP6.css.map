@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/navbar/navbar.css"],
+  "sourcesContent": ["li.desktop-item a {\r\n  font-weight: 400;\r\n  position: relative;\r\n  transition: all 0.3s ease;\r\n}\r\n\r\nli.desktop-item a::after {\r\n  content: '';\r\n  position: absolute;\r\n  bottom: -4px;\r\n  left: 50%;\r\n  width: 0;\r\n  height: 2px;\r\n  background: var(--color-alt-btn);\r\n  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);\r\n  transform: translateX(-50%);\r\n}\r\n\r\nli.desktop-item a:hover::after,\r\nli.desktop-item a.active-link::after {\r\n  width: 80%;\r\n}\r\n"],
+  "mappings": "AAAA,EAAA,CAAA,aAAA,EACE,YAAA,IACA,SAAA,SACA,WAAA,IAAA,IAAA,IACF,CAEA,EAAA,CANA,aAMA,CAAA,OACE,QAAA,GACA,SAAA,SACA,OAAA,KACA,KAAA,IACA,MAAA,EACA,OAAA,IACA,WAAA,IAAA,iBACA,WAAA,IAAA,IAAA,aAAA,EAAA,CAAA,CAAA,CAAA,EAAA,CAAA,GACA,UAAA,UAAA,KACF,CAEA,EAAA,CAlBA,aAkBA,CAAA,MAAA,UAlBA,iCAoBE,MAAA,GACF",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/sectors/components/sector-wrapper/sector-wrapper.ts", "src/app/features/sectors/components/sector-wrapper/sector-wrapper.html"],
+  "sourcesContent": ["import { Component } from '@angular/core';\r\nimport { RouterOutlet } from '@angular/router';\r\n\r\n@Component({\r\n  selector: 'app-sector-wrapper',\r\n  imports: [RouterOutlet],\r\n  templateUrl: './sector-wrapper.html',\r\n  styleUrl: './sector-wrapper.css',\r\n})\r\nexport class SectorWrapper {}\r\n", "<router-outlet></router-outlet>\r\n"],
+  "mappings": ";kLASA,IAAaA,GAAa,IAAA,CAApB,MAAOA,CAAa,4CAAbA,EAAa,2BAAbA,EAAaC,UAAA,CAAA,CAAA,oBAAA,CAAA,EAAAC,MAAA,EAAAC,KAAA,EAAAC,SAAA,SAAAC,EAAAC,EAAA,CAAAD,EAAA,GCT1BE,EAAA,EAAA,eAAA,iBDKYC,CAAY,EAAAC,cAAA,CAAA,CAAA,SAIXT,CAAa,GAAA",
+  "names": ["SectorWrapper", "selectors", "decls", "vars", "template", "rf", "ctx", "\u0275\u0275element", "RouterOutlet", "encapsulation"]
+}

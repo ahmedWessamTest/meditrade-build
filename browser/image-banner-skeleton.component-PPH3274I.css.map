@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["image-banner-skeleton.component.ts"],
+  "sourcesContent": ["\n      @keyframes pulse {\n        0%,\n        100% {\n          opacity: 1;\n        }\n        50% {\n          opacity: 0.5;\n        }\n      }\n\n      .animate-pulse {\n        animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\n      }\n\n      .rotate-img {\n        transform: rotate(-2deg);\n      }\n    "],
+  "mappings": "AACM,WAAA,MACE,MAEE,QAAA,CACF,CACA,IACE,QAAA,EACF,CACF,CAEA,CAAA,cACE,UAAA,MAAA,GAAA,aAAA,EAAA,CAAA,CAAA,CAAA,EAAA,CAAA,GAAA,QACF,CAEA,CAAA,WACE,UAAA,OAAA,MACF",
+  "names": []
+}

@@ -1,0 +1,2 @@
+import{a as r,b as c}from"./chunk-SJWGK2PM.js";import{X as n,ta as i}from"./chunk-UHEDFKCD.js";var f=(()=>{class t extends c{getBlogs(e,o=1,a=""){return this.get(`${r.BASE_URL}/${r.BLOGS}?lang=${e}&page=${o}&search=${a}`)}getBlogBySlug(e,o){return this.get(`${r.BASE_URL}/${r.BLOGS}/${e}?lang=${o}`)}static \u0275fac=(()=>{let e;return function(a){return(e||(e=i(t)))(a||t)}})();static \u0275prov=n({token:t,factory:t.\u0275fac,providedIn:"root"})}return t})();export{f as a};
+//# sourceMappingURL=chunk-NRNV63CG.js.map

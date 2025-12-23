@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-import{L as p}from"./chunk-TM2AOT35.mjs";import"./chunk-UAYCDQAG.mjs";import"./chunk-PCV3PIYB.mjs";import{Tb as o,lb as r}from"./chunk-HAA2XXW7.mjs";import"./chunk-X2SEQXRR.mjs";var s=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=r({type:t,selectors:[["app-sector-wrapper"]],decls:1,vars:0,template:function(e,n){e&1&&o(0,"router-outlet")},dependencies:[p],encapsulation:2})};export{s as SectorWrapper};

@@ -1,0 +1,2 @@
+import{L as n}from"./chunk-3SP72VUM.js";import"./chunk-Y5TCLEHD.js";import"./chunk-BBG7QOVJ.js";import{Pb as r,jb as o}from"./chunk-UHEDFKCD.js";import"./chunk-TDZFEMQK.js";var m=(()=>{class e{static \u0275fac=function(t){return new(t||e)};static \u0275cmp=o({type:e,selectors:[["app-sector-wrapper"]],decls:1,vars:0,template:function(t,c){t&1&&r(0,"router-outlet")},dependencies:[n],encapsulation:2})}return e})();export{m as SectorWrapper};
+//# sourceMappingURL=chunk-FGAMN3EU.js.map

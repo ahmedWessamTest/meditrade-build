@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/sectors/components/sector-alt-section/sector-alt-section.css"],
+  "sourcesContent": [".all-images-group .overlay {\r\n  opacity: 0;\r\n  pointer-events: none; /* prevents interacting with overlays when hidden */\r\n  transition: opacity 0.45s ease;\r\n  display: flex;\r\n  align-items: center;\r\n  justify-content: center;\r\n}\r\n\r\n.all-images-group:has(a:hover) .overlay {\r\n  opacity: 1;\r\n  pointer-events: all;\r\n}\r\n\r\n.all-images-group .overlay p {\r\n  opacity: 0;\r\n  transition: opacity 0.45s ease 0.05s;\r\n}\r\n\r\n.all-images-group:has(a:hover) .overlay p {\r\n  opacity: 1;\r\n}\r\n\r\n.all-images-group:has(a:hover) img {\r\n  transition: transform 0.45s ease;\r\n}\r\n\r\n.overlay {\r\n  background-color: rgba(0, 0, 0, 0.7);\r\n}\r\n"],
+  "mappings": "AAAA,CAAA,iBAAA,CAAA,QACE,QAAA,EACA,eAAA,KACA,WAAA,QAAA,KAAA,KACA,QAAA,KACA,YAAA,OACA,gBAAA,MACF,CAEA,CATA,gBASA,KAAA,CAAA,QAAA,CATA,QAUE,QAAA,EACA,eAAA,GACF,CAEA,CAdA,iBAcA,CAdA,QAcA,EACE,QAAA,EACA,WAAA,QAAA,KAAA,KAAA,IACF,CAEA,CAnBA,gBAmBA,KAAA,CAAA,QAAA,CAnBA,QAmBA,EACE,QAAA,CACF,CAEA,CAvBA,gBAuBA,KAAA,CAAA,QAAA,IACE,WAAA,UAAA,KAAA,IACF,CAEA,CA3BA,QA4BE,iBAAA,SACF",
+  "names": []
+}
