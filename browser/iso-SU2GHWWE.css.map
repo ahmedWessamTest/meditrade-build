@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/features/home/components/iso/iso.css"],
-  "sourcesContent": ["/* optional: add to global.css or component.css */\r\nimg {\r\n  transition: transform 0.2s ease-in-out;\r\n}\r\n\r\nimg:hover {\r\n  transform: scale(1.02);\r\n}\r\n"],
-  "mappings": "AACA,IACE,WAAA,UAAA,IAAA,WACF,CAEA,GAAA,OACE,UAAA,MAAA,KACF",
-  "names": []
-}

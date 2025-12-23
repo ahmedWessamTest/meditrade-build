@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/components/banner/banner.css"],
-  "sourcesContent": ["inner-banner {\r\n  position: relative;\r\n  background-position: center center;\r\n  background-size: cover;\r\n}\r\n"],
-  "mappings": "AAAA,aACE,SAAA,SACA,oBAAA,OAAA,OACA,gBAAA,KACF",
-  "names": []
-}

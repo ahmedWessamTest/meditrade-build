@@ -13,113 +13,113 @@ export default {
   {
     "renderMode": 0,
     "preload": [
-      "chunk-RO5MAVDN.js",
-      "chunk-Q3LKLSQL.js",
-      "chunk-2MSUCW46.js",
-      "chunk-TLMDHQIH.js",
-      "chunk-4LMQJG2F.js",
-      "chunk-22NFTRBI.js",
-      "chunk-BHIZYTM2.js",
-      "chunk-AOVEFNQR.js",
-      "chunk-QTUTND7F.js",
-      "chunk-AL63UZWR.js"
+      "chunk-R6E4VIPR.js",
+      "chunk-RLG7D6QG.js",
+      "chunk-XM45Y5UH.js",
+      "chunk-OIUUN5AE.js",
+      "chunk-A627MTVQ.js",
+      "chunk-3MN4BVLC.js",
+      "chunk-SA24UATL.js",
+      "chunk-HC5TIWGC.js",
+      "chunk-IQMUNJA6.js",
+      "chunk-ZD5RWOYH.js"
     ],
     "route": "/*"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-O6P2RJVC.js",
-      "chunk-NVKA7XTJ.js"
+      "chunk-ZMNVY4NV.js",
+      "chunk-RX6MPJOQ.js"
     ],
     "route": "/*/blogs"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-O6P2RJVC.js",
-      "chunk-NVKA7XTJ.js"
+      "chunk-ZMNVY4NV.js",
+      "chunk-RX6MPJOQ.js"
     ],
     "route": "/*/blogs/*"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-CN6PANKF.js",
-      "chunk-4LMQJG2F.js",
-      "chunk-364UJXP3.js",
-      "chunk-AOVEFNQR.js",
-      "chunk-Z3WRMO63.js"
+      "chunk-HKNIQU2P.js",
+      "chunk-A627MTVQ.js",
+      "chunk-YVKCAVBT.js",
+      "chunk-HC5TIWGC.js",
+      "chunk-NDL4MLTX.js"
     ],
     "route": "/*/about-us"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-EWMZ5YYS.js",
-      "chunk-22NFTRBI.js",
-      "chunk-BHIZYTM2.js",
-      "chunk-364UJXP3.js",
-      "chunk-AOVEFNQR.js",
-      "chunk-LXRZVBFU.js"
+      "chunk-O56ECUE5.js",
+      "chunk-3MN4BVLC.js",
+      "chunk-SA24UATL.js",
+      "chunk-YVKCAVBT.js",
+      "chunk-HC5TIWGC.js",
+      "chunk-SS6G2IYT.js"
     ],
     "route": "/*/partners"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-FGAMN3EU.js"
+      "chunk-W7TOGV4O.js"
     ],
     "route": "/*/sectors"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-FGAMN3EU.js"
+      "chunk-W7TOGV4O.js"
     ],
     "route": "/*/sectors/*"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-WDFR4QKV.js",
-      "chunk-TLMDHQIH.js",
-      "chunk-BHIZYTM2.js",
-      "chunk-364UJXP3.js",
-      "chunk-AOVEFNQR.js",
-      "chunk-QTUTND7F.js",
-      "chunk-AL63UZWR.js",
-      "chunk-OPT2SGER.js",
-      "chunk-LXRZVBFU.js"
+      "chunk-BVHLVOP6.js",
+      "chunk-OIUUN5AE.js",
+      "chunk-SA24UATL.js",
+      "chunk-YVKCAVBT.js",
+      "chunk-HC5TIWGC.js",
+      "chunk-IQMUNJA6.js",
+      "chunk-ZD5RWOYH.js",
+      "chunk-5C4FDEOP.js",
+      "chunk-SS6G2IYT.js"
     ],
     "route": "/*/media"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-ZEVEX324.js",
-      "chunk-BHIZYTM2.js",
-      "chunk-364UJXP3.js",
-      "chunk-AOVEFNQR.js",
-      "chunk-QTUTND7F.js",
-      "chunk-AL63UZWR.js"
+      "chunk-BA7RMCIX.js",
+      "chunk-SA24UATL.js",
+      "chunk-YVKCAVBT.js",
+      "chunk-HC5TIWGC.js",
+      "chunk-IQMUNJA6.js",
+      "chunk-ZD5RWOYH.js"
     ],
     "route": "/*/contact-us"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-YTBJUIAL.js",
-      "chunk-364UJXP3.js",
-      "chunk-AL63UZWR.js",
-      "chunk-Z3WRMO63.js"
+      "chunk-72ZZND5F.js",
+      "chunk-YVKCAVBT.js",
+      "chunk-ZD5RWOYH.js",
+      "chunk-NDL4MLTX.js"
     ],
     "route": "/*/privacy-policy"
   },
   {
     "renderMode": 0,
     "preload": [
-      "chunk-Y2VFLPP7.js"
+      "chunk-4LJUSHSI.js"
     ],
     "route": "/*/notfound"
   },
@@ -131,8 +131,8 @@ export default {
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 41928, hash: '69d1bf7a04cd44638dac8c4b617714d3708c6a7df0aa010edf49e240283487ab', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 3577, hash: 'a3623d5464cce2381da9efff47a3deafa6ff97b8669d36fb55bb89fba6e4eae1', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'styles-7NSTMOMC.css': {size: 206451, hash: 'TYCVwSQUbd0', text: () => import('./assets-chunks/styles-7NSTMOMC_css.mjs').then(m => m.default)}
+    'index.csr.html': {size: 41928, hash: 'ccc70a3398eb22fc34cc9cfe0e2b31037176a89464ea26411ecc77cce3cdf1b4', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 3577, hash: '504cd3e0fad17a045ff03a3fd6109556b8db33d5ce25d959237395aea461082a', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'styles-KRN5WX4M.css': {size: 206403, hash: 'LOZvI/ESHzI', text: () => import('./assets-chunks/styles-KRN5WX4M_css.mjs').then(m => m.default)}
   },
 };

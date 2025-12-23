@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["skeleton-sector-card.ts"],
-  "sourcesContent": ["\n  @keyframes shimmer {\n  100% {\n    transform: translateX(100%);\n  }\n}\n\n  "],
-  "mappings": "AACE,WAAA,QACA,GACE,UAAA,UAAA,KACF,CACF",
-  "names": []
-}

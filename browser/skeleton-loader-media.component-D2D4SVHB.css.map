@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/components/skeleton-loader/skeleton-loader-media/skeleton-loader-media.component.css"],
-  "sourcesContent": ["/* Shimmer animation for skeleton loading */\r\n@keyframes shimmer {\r\n  0% {\r\n    background-position: -200px 0;\r\n  }\r\n  100% {\r\n    background-position: calc(200px + 100%) 0;\r\n  }\r\n}\r\n\r\n.animate-shimmer {\r\n  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);\r\n  background-size: 200px 100%;\r\n  animation: shimmer 1.5s infinite;\r\n}\r\n\r\n/* Additional pulse animation for fallback */\r\n@keyframes pulse {\r\n  0%,\r\n  100% {\r\n    opacity: 1;\r\n  }\r\n  50% {\r\n    opacity: 0.5;\r\n  }\r\n}\r\n\r\n.animate-pulse {\r\n  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;\r\n}\r\n"],
-  "mappings": "AACA,WAAA,QACE,GACE,oBAAA,OAAA,CACF,CACA,GACE,oBAAA,KAAA,MAAA,EAAA,MAAA,CACF,CACF,CAEA,CAAA,gBACE,WAAA,gBAAA,KAAA,CAAA,QAAA,GAAA,CAAA,OAAA,CAAA,QAAA,KACA,gBAAA,MAAA,KACA,UAAA,QAAA,KAAA,QACF,CAGA,WAAA,MACE,MAEE,QAAA,CACF,CACA,IACE,QAAA,EACF,CACF,CAEA,CAAA,cACE,UAAA,MAAA,GAAA,aAAA,EAAA,CAAA,CAAA,CAAA,EAAA,CAAA,GAAA,QACF",
-  "names": []
-}

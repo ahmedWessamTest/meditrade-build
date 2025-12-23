@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/features/sectors/pages/sector-id/sector-id.css"],
-  "sourcesContent": ["\r\n:host ::ng-deep .in-view {\r\n  background: rgba(255, 235, 59, 0.3);\r\n  transition: all 0.3s ease;\r\n}\r\n/* Owl Carousel Custom Styling */\r\n::ng-deep .owl-carousel .owl-nav {\r\n  padding: 0 30px;\r\n  transform: translateY(-50%);\r\n  position: absolute;\r\n  top: 50%;\r\n  display: flex;\r\n  width: 100%;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n@media screen and (max-width: 1360px) {\r\n  ::ng-deep .owl-carousel .owl-nav {\r\n    display: none !important;\r\n  }\r\n}\r\n::ng-deep .owl-theme .owl-nav [class*='owl-']:hover,\r\n::ng-deep .owl-theme .owl-nav [class*='owl-'] {\r\n  background: transparent !important;\r\n}\r\n\r\n.rtl-carousel ::ng-deep .owl-carousel .owl-nav .owl-next,\r\n.rtl-carousel ::ng-deep .owl-carousel .owl-nav .owl-prev {\r\n  transform: rotate(180deg);\r\n}\r\n"],
-  "mappings": "AACA,MAAA,UAAA,CAAA,QACE,WAAA,UACA,WAAA,IAAA,IAAA,IACF,CAEA,UAAA,CAAA,aAAA,CAAA,gBACE,EAAA,KACA,UAAA,WAAA,MACA,SAAA,SACA,IAAA,IACA,QAAA,KACA,MAAA,KACA,gBAAA,cACA,YAAA,MACF,CACA,OAAA,OAAA,IAAA,CAAA,SAAA,EAAA,QACE,UAAA,CAXF,aAWE,CAXF,QAYI,QAAA,cACF,CACF,CACA,UAAA,CAAA,UAAA,CAfA,QAeA,CAAA,YAAA,kBAAA,WAfA,sBAiBE,WAAA,qBACF,CAEA,CAAA,aAAA,UAAA,CApBA,aAoBA,CApBA,QAoBA,CAAA,UAAA,wBApBA,cAAA,kBAsBE,UAAA,OAAA,OACF",
-  "names": []
-}

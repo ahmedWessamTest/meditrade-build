@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/features/blogs/services/blog.ts"],
-  "sourcesContent": ["import { Injectable } from '@angular/core';\r\nimport { API_CONFIG } from '@core/config/api-endpoints';\r\nimport { Http } from '@core/services/api.service';\r\nimport { Observable } from 'rxjs';\r\nimport { IBlog } from '../interface/blog';\r\nimport { IBlogs } from '../interface/blogs';\r\n\r\n@Injectable({\r\n  providedIn: 'root',\r\n})\r\nexport class BlogService extends Http {\r\n  getBlogs(lang: string, page = 1, search = ''): Observable<IBlogs> {\r\n    return this.get<IBlogs>(\r\n      `${API_CONFIG.BASE_URL}/${API_CONFIG.BLOGS}?lang=${lang}&page=${page}&search=${search}`\r\n    );\r\n  }\r\n\r\n  getBlogBySlug(slug: string, lang: string): Observable<IBlog> {\r\n    return this.get<IBlog>(`${API_CONFIG.BASE_URL}/${API_CONFIG.BLOGS}/${slug}?lang=${lang}`);\r\n  }\r\n}\r\n"],
-  "mappings": "+FAUA,IAAaA,GAAY,IAAA,CAAnB,MAAOA,UAAoBC,CAAI,CACnCC,SAASC,EAAcC,EAAO,EAAGC,EAAS,GAAE,CAC1C,OAAO,KAAKC,IACV,GAAGC,EAAWC,QAAQ,IAAID,EAAWE,KAAK,SAASN,CAAI,SAASC,CAAI,WAAWC,CAAM,EAAE,CAE3F,CAEAK,cAAcC,EAAcR,EAAY,CACtC,OAAO,KAAKG,IAAW,GAAGC,EAAWC,QAAQ,IAAID,EAAWE,KAAK,IAAIE,CAAI,SAASR,CAAI,EAAE,CAC1F,gEATWH,CAAW,IAAAY,GAAXZ,CAAW,CAAA,CAAA,GAAA,6BAAXA,EAAWa,QAAXb,EAAWc,UAAAC,WAFV,MAAM,CAAA,SAEPf,CAAY,GAAA",
-  "names": ["BlogService", "Http", "getBlogs", "lang", "page", "search", "get", "API_CONFIG", "BASE_URL", "BLOGS", "getBlogBySlug", "slug", "__ngFactoryType__", "factory", "\u0275fac", "providedIn"]
-}

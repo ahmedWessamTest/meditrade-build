@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/features/about-us/about-us.css"],
-  "sourcesContent": [".tap-content ::ng-deep ul {\r\n  list-style: disc !important; /* bullets */\r\n}\r\n\r\n.tap-content ::ng-deep ol {\r\n  list-style: decimal !important; /* numbers */\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,YAAA,UAAA,GACE,WAAA,cACF,CAEA,CAJA,YAIA,UAAA,GACE,WAAA,iBACF",
-  "names": []
-}

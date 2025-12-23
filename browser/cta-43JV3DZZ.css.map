@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/components/cta/cta.css"],
-  "sourcesContent": [".ctr {\r\n  background: linear-gradient(90deg, #cee2fe 0%, #ffd9db 100%);\r\n}\r\n"],
-  "mappings": "AAAA,CAAA,IACE,WAAA,gBAAA,KAAA,CAAA,OAAA,CAAA,QACF",
-  "names": []
-}
